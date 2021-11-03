@@ -3,8 +3,6 @@ WIP NES Core for Super HD System 3
 
 This is a work in progress core for Super HD System 3 based on the open source FPGANES core: https://github.com/strigeus/fpganes
 
-Please note the WIP core does not work in RGB and many mappers are not yet supported
-
 ## SD card setup
 
 Copy the SYS folder to the root of the SD card. 
@@ -18,6 +16,11 @@ To build the core, you'll need Xilinx ISE 14.7.
 * Select the PCESD_NES core
 * In the bottom box, double click Generate Programming File
 * Once finished, you'll have a file named *PCESD_NES.bit* in the project directory. Rename it to *fpga.bit* and place in the SYS/NES folder in the memory card.
+
+## Known Issues
+RGB output csync is not correct
+In game reset or holding reset button doesn't properly reset to the SHSD3 Menu
+Mapper support is incomplete
 
 
 **Documentation on FPGA signals and how to build your own core will follow shortly** 
