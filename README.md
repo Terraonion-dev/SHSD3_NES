@@ -3,6 +3,8 @@ WIP NES Core for Super HD System 3
 
 This is a work in progress core for Super HD System 3 based on the open source FPGANES core: https://github.com/strigeus/fpganes
 
+Please note the WIP core does not work in RGB and many mappers are not yet supported
+
 ## SD card setup
 
 Copy the SYS folder to the root of the SD card. 
