@@ -18,9 +18,9 @@ To build the core, you'll need Xilinx ISE 14.7.
 * Once finished, you'll have a file named *PCESD_NES.bit* in the project directory. Rename it to *fpga.bit* and place in the SYS/NES folder in the memory card.
 
 ## Known Issues
-RGB output csync is not correct
-In game reset or holding reset button doesn't properly reset to the SHSD3 Menu
-Mapper support is incomplete
+* RGB output csync is not correct
+* In game reset or holding reset button doesn't properly reset to the SHSD3 Menu
+* Mapper support is incomplete
 
 
 **Documentation on FPGA signals and how to build your own core will follow shortly** 
