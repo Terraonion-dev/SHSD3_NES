@@ -22,5 +22,8 @@ To build the core, you'll need Xilinx ISE 14.7.
 * In game reset or holding reset button doesn't properly reset to the SHSD3 Menu
 * Mapper support is incomplete
 
+For discussion and support with this core please join the TerraOnion Discord:
+
+https://discord.gg/JexuJVW
 
 **Documentation on FPGA signals and how to build your own core will follow shortly** 
